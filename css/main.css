@@ -1,0 +1,80 @@
+#container {
+    width: 404px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#playground {
+    width: 400px;
+    height: 400px;
+    border: 2px solid blue;
+    position: relative;
+}
+
+#endScreen {
+    width: 404px;
+    height: 404px;
+    position: absolute;
+    top: 19px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+#endCount,
+#endSeconds {
+    font-weight: bold;
+}
+
+#timer,
+#counter {
+    padding: 5px;
+    font-family: calibri;
+}
+
+#timer span,
+#counter span {
+    font-weight: bold;
+}
+
+#timer {
+    float: right;
+}
+
+#counter {
+    float: left;
+}
+
+#start,
+#start-Game {
+    width: 50px;
+    height: 50px;
+    background-color: #f00;
+    line-height: 50px;
+    text-align: center;
+    font-family: calibri;
+    font-size: 13px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #f85032;
+}
+
+#bunny {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #666;
+    background: #f2f6f8;
+}
